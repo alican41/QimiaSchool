@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QimiaSchool1", "QimiaSchool1\QimiaSchool1.csproj", "{246915D0-B28B-4709-A5F1-503F3055CFDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QimiaSchool1.DataAccess", "QimiaSchool1.DataAccess\QimiaSchool1.DataAccess.csproj", "{4F537541-AD55-479A-8170-1BBB862881CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QimiaSchool1.Business", "QimiaSchool1.Business\QimiaSchool1.Business.csproj", "{F12C7FF1-FF9E-40E0-8128-E6F57AB72E87}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QimiaSchool1.Business.UnitTests", "QimiaSchool1.Business.UnitTests\QimiaSchool1.Business.UnitTests.csproj", "{EFEBCFCC-38C4-49FF-9307-4264965E731A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ELK", "ELK", "{22A099D4-5409-4F9E-9501-6FC9DABC51D3}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QimiaSchool1.IntegrationTests", "QimiaSchool1.IntegrationTests\QimiaSchool1.IntegrationTests.csproj", "{6B937712-6928-4ED4-95B2-533AB0F4E5ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{246915D0-B28B-4709-A5F1-503F3055CFDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246915D0-B28B-4709-A5F1-503F3055CFDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246915D0-B28B-4709-A5F1-503F3055CFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246915D0-B28B-4709-A5F1-503F3055CFDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F537541-AD55-479A-8170-1BBB862881CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F537541-AD55-479A-8170-1BBB862881CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F537541-AD55-479A-8170-1BBB862881CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F537541-AD55-479A-8170-1BBB862881CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F12C7FF1-FF9E-40E0-8128-E6F57AB72E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12C7FF1-FF9E-40E0-8128-E6F57AB72E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12C7FF1-FF9E-40E0-8128-E6F57AB72E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12C7FF1-FF9E-40E0-8128-E6F57AB72E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFEBCFCC-38C4-49FF-9307-4264965E731A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFEBCFCC-38C4-49FF-9307-4264965E731A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFEBCFCC-38C4-49FF-9307-4264965E731A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFEBCFCC-38C4-49FF-9307-4264965E731A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B937712-6928-4ED4-95B2-533AB0F4E5ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B937712-6928-4ED4-95B2-533AB0F4E5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B937712-6928-4ED4-95B2-533AB0F4E5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B937712-6928-4ED4-95B2-533AB0F4E5ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7D90525-394F-4873-AD98-10C1799F2B08}
+	EndGlobalSection
+EndGlobal
